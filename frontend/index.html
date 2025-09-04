@@ -27,6 +27,37 @@
         </div>
       </div>
     </header>
+    <!-- Difficulty Menu -->
+    <div class="difficulty-menu" style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 28px 0 0 0;
+      font-family: 'Barlow Semi Condensed', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 1.35rem;
+      color: #3B4262;
+      min-height: 60px;
+    ">
+      <label for="difficulty-select" style="margin-right: 18px;">Difficulty:</label>
+      <select id="difficulty-select" style="
+        padding: 12px 32px;
+        border-radius: 28px;
+        border: 2.5px solid #3B4262;
+        background: #fff;
+        color: #3B4262;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 1.25rem;
+        outline: none;
+        transition: border 0.2s;
+        min-width: 140px;
+      ">
+        <option value="easy" style="color:#3B4262;">Easy</option>
+        <option value="medium" selected style="color:#3B4262;">Medium</option>
+        <option value="hard" style="color:#3B4262;">Hard</option>
+      </select>
+    </div>
     <main>
       <!-- Game Container -->
       <div class="game-body">

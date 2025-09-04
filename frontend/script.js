@@ -71,7 +71,7 @@ function swipe(flag, arr, slim, tmpArr) {
         headingUser.append(headingUserContent);
         slim.append(headingUser);
         let headingCom = document.createElement('h3');
-        let headingComContent = document.createTextNode('The house Picked');
+        let headingComContent = document.createTextNode('The AI picked');
         headingCom.append(headingComContent);
         headingCom.classList.add('you-picked');
         comItem.append(headingCom);
